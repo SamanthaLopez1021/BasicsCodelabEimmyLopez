@@ -1,15 +1,14 @@
-
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
 
 android {
-    namespace = "co.edu.sena.basiccodelabeimmylopez"
+    namespace = "co.edu.sena.migrationcodelab"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "co.edu.sena.basiccodelabeimmylopez"
+        applicationId = "co.edu.sena.migrationcodelab"
         minSdk = 27
         targetSdk = 33
         versionCode = 1
@@ -67,5 +66,4 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
-
 }

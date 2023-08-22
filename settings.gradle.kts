@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "BasicCodelabEimmyLopez"
 include(":app")
- 
+include(":app:migrationcodelab")
